@@ -1,0 +1,21 @@
+{
+  "name": "ZhuFengMianShiXunLianYing",
+  "version": "1.0.0",
+  "description": "珠峰面试培训",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "git":"git push gitee master && git push github master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuckRain7/ZhuFengMianShiXunLianYing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuckRain7/ZhuFengMianShiXunLianYing/issues"
+  },
+  "homepage": "https://github.com/LuckRain7/ZhuFengMianShiXunLianYing#readme"
+}
