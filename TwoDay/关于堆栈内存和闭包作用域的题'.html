@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+<script>
+    //example 1
+    // let a = {}, b = '0', c = 0;
+    // a[b] = '珠峰';
+    // a[c] = '培训';
+    // console.log(a[b]);
+
+
+    //example 2
+    // let a = {}, b = Symbol('1'), c = Symbol('1');
+    // a[b] = '珠峰';
+    // a[c] = '培训';
+    // console.log(a[b]);
+
+
+    //example 3
+    // let a = {}, b = { n: '1' }, c = { m: '2' };
+    // a[b] = '珠峰';
+    // // console.log(a);
+    // a[c] = '培训';
+    // console.log(a[b]);
+
+    // 闭包1
+    // var test = (function (i) {
+    //     return function () {
+    //         alert(i *= 2);
+    //     }
+    // })(2);
+
+    // test(5);
+
+    var a = 0,
+        b = 0;
+    function A(a) {
+        A = function (b) {
+            alert(a + b++);
+        };
+        alert(a++);
+    }
+
+    A(1); //2
+    A(2); //5
+
+
+
+
+</script>
